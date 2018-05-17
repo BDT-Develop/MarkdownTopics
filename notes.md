@@ -25,3 +25,8 @@ git commit -m "First commit on develop"
 ```bash
 git push origin master
 ``` 
+
+Check for alias in git
+
+git config --global alias.lg "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar
+)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
