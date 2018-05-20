@@ -38,6 +38,13 @@ git push origin master
 ```bash git checkout branchname
 ```
 
+* merge a branch
+--first move to the branch that the branch where you worked will join
+```bash git checkout master
+```
+```bash git merge branchname
+```
+
 * view history 
 ```bash git log
 ```
