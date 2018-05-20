@@ -9,7 +9,8 @@ console.log("I'm learning git")
 ```
 
 * verify the differences
-```bash git status 
+```bash 
+git status 
 ```
 
 * add files to stage 
@@ -26,34 +27,45 @@ git commit -m "First commit on develop"
 git push origin master
 ``` 
 * compare 2 branches 
-```bash git diff branch1 branch2
+```
+bash 
+git diff branchtocompare actualbranch
 ```
 
 * make a branch 
-```bash git branch branchname
+```bash 
+git branch branchname
 ``` 
 
 * delete a branch 
-```bash git branch -d branchname
+```bash 
+git 
+branch -d branchname
 ```
 
 * move to a branch 
-```bash git checkout branchname
+```bash 
+git 
+checkout branchname
 ```
 
 * merge a branch
 --first move to the branch that the branch where you worked will join
-```bash git checkout master
+```bash 
+git checkout master
 ```
-```bash git merge branchname
+```bash 
+git merge branchname
 ```
 
 * view history 
-```bash git log
+```bash 
+git log
 ```
 
 * download a repository from remote to local 
-```bash git clone URL
+```bash 
+git clone URL
 ```
 
 Check for alias in git
