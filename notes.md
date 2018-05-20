@@ -25,6 +25,9 @@ git commit -m "First commit on develop"
 ```bash
 git push origin master
 ``` 
+* compare 2 branches 
+```bash git diff branch1 branch2
+```
 
 Check for alias in git
 
